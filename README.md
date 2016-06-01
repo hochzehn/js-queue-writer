@@ -1,4 +1,4 @@
-# alexa-queue-writer
+# js-queue-writer
 Write Strings to RestMQ, with configurable parallel jobs.
 
 ## Usage
