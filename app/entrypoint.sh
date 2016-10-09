@@ -8,5 +8,5 @@ else
     jobs=$2
     data=$3
 
-    echo "$data" | parallel --jobs $jobs curl -s -X POST -d "value={}" "$restmq_url" 1> /dev/null
+    echo "$data" | parallel --jobs $jobs curl -s -X POST -d "value={}" "$restmq_url"
 fi
